@@ -5,14 +5,18 @@ using GoogleMobileAds.Api;
 
 public class TestAdmob : MonoBehaviour
 {
+#if UNITY_EDITOR
+    private const string kAdUnitId = "ca-app-pub-7777777777777777/7777777777";  //假ID占位
+    private const string kTestBtnName = "编辑器广告";
+#endif
 
 #if UNITY_ANDROID
-    private const string kAdUnitId = "ca-app-pub-3940256099942544/5224354917";  //官方专用测试广告单元ID
+    private const string kAdUnitId = "ca-app-pub-3940256099942544/5224354917";  //官方专用测试广告单元ID  //要填写自己的
     private const string kTestBtnName = "安卓广告";
 #endif
 
 #if UNITY_IOS
-    private const string kAdUnitId = "ca-app-pub-3940256099942544/1712485313";  //官方专用测试广告单元ID
+    private const string kAdUnitId = "ca-app-pub-3940256099942544/1712485313";  //官方专用测试广告单元ID  //要填写自己的
     private const string kTestBtnName = "IOS广告";
 #endif
 
