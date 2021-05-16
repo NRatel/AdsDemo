@@ -1,2 +1,2 @@
 # AdsDemo
- Unity接入广告，使用Admob聚合Admob+UnityAds+FacebookAudienceNetwork+Pangle。
+ Unity接入激励视频广告Demo，Admob聚合Admob+UnityAds+FacebookAudienceNetwork+Pangle。
